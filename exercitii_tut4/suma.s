@@ -7,7 +7,7 @@ vec_size: .long 10
 
 main:
 
-lea vec, %esi
+lea vec, %esi # invatam adresa vectorului si o mutam in registrul esi 
 movl $0, %ebx # vom folosi registrul ebx ca variabila in care stocam suma
 
 
